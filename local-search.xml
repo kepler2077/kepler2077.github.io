@@ -4,9 +4,38 @@
   
   
   <entry>
+    <title>斐讯k2-A5-22.6.534.263，刷机老毛子</title>
+    <link href="/2026/05/13/%E6%96%90%E8%AE%AFk2-A5-22-6-534-263%EF%BC%8C%E5%88%B7%E6%9C%BA%E8%80%81%E6%AF%9B%E5%AD%90/"/>
+    <url>/2026/05/13/%E6%96%90%E8%AE%AFk2-A5-22-6-534-263%EF%BC%8C%E5%88%B7%E6%9C%BA%E8%80%81%E6%AF%9B%E5%AD%90/</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言：tags"><a href="#前言：tags" class="headerlink" title="前言：tags:"></a>前言：tags:</h2><p>起因是最近从同事手里“捡”到了一台斐讯 K2。虽说是多年前的老物件了，但提起它，老玩家们肯定都心领神会——当年我这位同事也是奔着“理财”去的（笑）。<br>调侃归调侃，抛开当年的风波不谈，斐讯的机器底子确实扎实，硬件素质在同价位中非常能打。最重要的是，它的可玩性极高，通过刷入各种第三方固件，这台老路由完全可以焕发“第二春”。今天就带大家折腾一下，看看如何发挥它的余热。</p><h2 id="第一步，刷入Breed"><a href="#第一步，刷入Breed" class="headerlink" title="第一步，刷入Breed"></a>第一步，刷入Breed</h2><p>情况1：v22.6.534.263之前的版本</p><p>1.下载<a href="https://tbvv.net/k2/breed.zip%EF%BC%8C%E8%A7%A3%E5%8E%8B%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E5%88%B0%E4%BB%BB%E6%84%8F%E7%9B%AE%E5%BD%95%E3%80%82">https://tbvv.net/k2/breed.zip，解压所有文件到任意目录。</a></p><p>2.双击运行 刷机.bat 按照提示输入路由的IP和密码，如果是默认的直接按回车。<br>(全新或恢复出厂没设置过的路由直接回车按提示配置路由)</p><p>3.等待路由重启，1分钟左右会用浏览器打开路由页面，如果自动登录成功或者手动升级页面有变化 就说明刷breed成功了。<br>(管理密码: tbvv.net)</p><p>4.接着进入：高级设置 —&gt; 系统设置 —&gt; 手动升级 —&gt; 下载备份EEPROM(是一个压缩包)。</p><p>5.完成。</p><p>情况2：v22.6.534.263及之后的版本</p><p>1.下载<a href="https://tbvv.net/k2/breed.zip%EF%BC%8C%E8%A7%A3%E5%8E%8B%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E5%88%B0%E4%BB%BB%E6%84%8F%E7%9B%AE%E5%BD%95%E3%80%82">https://tbvv.net/k2/breed.zip，解压所有文件到任意目录。</a></p><p>2.右键刷机.bat，记事本编辑查找替换，把autoUpTime&#x3D;03%%3A03 替换成autoUpTime&#x3D;03%%3A03%%3A03即可</p><p>3.双击运行 刷机.bat 按照提示输入路由的IP和密码，如果是默认的直接按回车。<br>(全新或恢复出厂没设置过的路由直接回车按提示配置路由)</p><p>4.等待路由重启，1分钟左右会用浏览器打开路由页面，如果自动登录成功或者手动升级页面有变化 就说明刷breed成功了。<br>(管理密码: tbvv.net)</p><p>5.接着进入：高级设置 —&gt; 系统设置 —&gt; 手动升级 —&gt; 下载备份EEPROM(是一个压缩包)。</p><p>6.完成。</p><h2 id="刷入第三方固件"><a href="#刷入第三方固件" class="headerlink" title="刷入第三方固件"></a>刷入第三方固件</h2><p>高级设置 —&gt; 系统设置 —&gt; 手动升级 —&gt; 浏览 —&gt; 选择自己下载的固件 —&gt; 点击升级即可。<br>(网页刷机进度条不准确可忽略，固件写入、重启、首次启动初始化这个过程实际需要3—5分钟不等，不要着急，如果固件不兼容需要手动进breed重刷)<br> <img src="/img/K2/1.jpg" alt="正在升级"><br>我个人选择刷的是老毛子 Padavan:<a href="https://pan.baidu.com/s/1pLEZJgn">https://pan.baidu.com/s/1pLEZJgn</a></p><p>致谢：<br><a href="https://tbvv.net/posts/0101-breed">https://tbvv.net/posts/0101-breed</a><br><a href="https://www.right.com.cn/forum/thread-8276017-1-1.html">https://www.right.com.cn/forum/thread-8276017-1-1.html</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>斐讯</tag>
+      
+      <tag>路由器</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Obsidian的部署，PC与手机的同步</title>
-    <link href="/2026/04/07/Obsidian%E7%9A%84%E9%83%A8%E7%BD%B2%EF%BC%8CPC%E4%B8%8E%E6%89%8B%E6%9C%BA%E7%9A%84%E5%90%8C%E6%AD%A5/"/>
-    <url>/2026/04/07/Obsidian%E7%9A%84%E9%83%A8%E7%BD%B2%EF%BC%8CPC%E4%B8%8E%E6%89%8B%E6%9C%BA%E7%9A%84%E5%90%8C%E6%AD%A5/</url>
+    <link href="/2026/04/07/Obsidian%E7%9A%84%E9%83%A8%E7%BD%B2%EF%BC%8CPC%E4%B8%8E%E6%89%8B%E6%9C%BA%E7%9A%84%E5%90%8C%E6%AD%A5/Obsidian%E7%9A%84%E9%83%A8%E7%BD%B2%EF%BC%8CPC%E4%B8%8E%E6%89%8B%E6%9C%BA%E7%9A%84%E5%90%8C%E6%AD%A5/"/>
+    <url>/2026/04/07/Obsidian%E7%9A%84%E9%83%A8%E7%BD%B2%EF%BC%8CPC%E4%B8%8E%E6%89%8B%E6%9C%BA%E7%9A%84%E5%90%8C%E6%AD%A5/Obsidian%E7%9A%84%E9%83%A8%E7%BD%B2%EF%BC%8CPC%E4%B8%8E%E6%89%8B%E6%9C%BA%E7%9A%84%E5%90%8C%E6%AD%A5/</url>
     
     <content type="html"><![CDATA[<h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><p>Obsidian是什么？它是基于本地 Markdown 的强大知识库。双向链接、图谱、插件，构建终身受用的笔记系统。简单来说就是一个本地笔记软件。<br>官网：<a href="https://obsidian.hl.cn/">https://obsidian.hl.cn/</a><br>我目前的配置是：在同一网络下，Unraid（Nas）安装syncthing作为我的中转站，电脑与手机各装一个Obsidian，手机上还需装一个syncthing-Fork，与syncthing同步。</p><h2 id="配置中转站"><a href="#配置中转站" class="headerlink" title="配置中转站"></a>配置中转站</h2><p>先在Unraid上去设置共享文件夹<br><img src="/img/Obsidian/Obsidian1.jpg" alt="Unraid设置共享文件夹"><br>然后在应用商店搜索“syncthing”<br><img src="/img/Obsidian/Obsidian2.jpg" alt="Unraid搜索syncthing"><br>配置docker<br>我们只需要更改“Path: &#x2F;data1:”这一项，其他默认就行（如果有端口冲突可以更改其他端口）<br>然后运行<br><img src="/img/Obsidian/Obsidian3.jpg" alt="配置docker"><br>运行之后我们打开它的网页（unraid的ip地址加web端口）<br>选添加文件夹，添加路径<br><img src="/img/Obsidian/Obsidian4.jpg" alt="添加文件夹"></p><h2 id="配置电脑端"><a href="#配置电脑端" class="headerlink" title="配置电脑端"></a>配置电脑端</h2><p>先添加unraid的共享文件夹<br><img src="/img/Obsidian/Obsidian6.jpg" alt="映射网络驱动器"><br>下载Obsidian(官网：<a href="https://obsidian.hl.cn/">https://obsidian.hl.cn/</a>)<br>安装好软件<br>选择刚刚添加的共享文件夹<br><img src="/img/Obsidian/Obsidian7.jpg" alt="连接本地仓库"></p><h2 id="配置移动端"><a href="#配置移动端" class="headerlink" title="配置移动端"></a>配置移动端</h2><p>我们先去下载一个叫做syncthing-Fork的app<br>安装好后，点进应用，显示以下界面<br>添加本地文件夹<br><img src="/img/Obsidian/Obsidian8.jpg" width="50%" alt="建立本地仓库"><br>设置本地文件夹路径<br><img src="/img/Obsidian/Obsidian9-1.jpg" width="50%" alt="建立本地仓库"><br><img src="/img/Obsidian/Obsidian9-2.jpg" width="50%" alt="设置本地文件夹路径"><br><img src="/img/Obsidian/Obsidian9-3.jpg" width="50%" alt="设置本地文件夹路径"><br>接下来，去查看设备ID，点击复制<br><img src="/img/Obsidian/Obsidian9.jpg" width="50%" alt="查看设备ID"><br><img src="/img/Obsidian/Obsidian10.jpg" width="50%" alt="查看设备ID"><br><img src="/img/Obsidian/Obsidian10-1.jpg" width="50%" alt="查看设备ID"><br>在网页，点添加远程设备，添加刚刚的设备ID<br><img src="/img/Obsidian/Obsidian5.jpg" alt="添加设备"><br>添加共享文件夹<br><img src="/img/Obsidian/Obsidian11.jpg" width="50%" alt="添加文件夹"><br>接下里，点击操作，查看设备ID<br><img src="/img/Obsidian/Obsidian14.jpg" alt="查看设备ID"><br><img src="/img/Obsidian/Obsidian15.jpg" alt="查看设备ID"><br><img src="/img/Obsidian/Obsidian16.jpg" alt="查看设备ID"><br>完成以上步骤我们回到手机端<br>点设备，添加设备<br><img src="/img/Obsidian/Obsidian12.jpg" width="50%" alt="添加设备"><br>添加设备ID，并点击之前设置的同步文件夹<br><img src="/img/Obsidian/Obsidian13.jpg" width="50%" alt="添加设备ID"><br>再点击右上角，完成<br>我们可以看到，显示绿色就代表同步成功<br><img src="/img/Obsidian/Obsidian17.jpg" width="50%" alt="手机端"><br><img src="/img/Obsidian/Obsidian18.jpg" alt="网页"></p>]]></content>
     
